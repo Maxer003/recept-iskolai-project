@@ -1,6 +1,12 @@
+body {
+    background: linear-gradient(90deg, rgba(0,6,36,0.93) 3%, rgba(9,121,80,1) 35%, rgba(0,254,255,1) 100%);
+}
+
 .container {
+    position: relative;
     width: 1000px;
-    background: burlywood;
+    margin: auto;
+    background: rgb(189, 222, 135);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0 0, 0, 0.5);
 
@@ -26,8 +32,17 @@ h1{
     margin-bottom: 50px;
 }
 
+.details {
+    text-align: left;
+}
+
+img {
+    margin-left: 4%;
+    width: 300px !important;
+}
+
 ul{
-    list-style-type: square;
+    list-style-type: circle;
     padding-left: 20px;
 }
 
